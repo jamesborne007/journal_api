@@ -1,0 +1,27 @@
+BLOG API
+journal api
+
+Register User - Model (email,name,password)
+1. Email, Password, name Validation
+2. hash users password (mongoose middlware)
+3. generate token (mongoose instance methods)
+4. send response with the token
+
+Login users
+1. Email and password Validation
+2. find user
+3. compare password (if correct -> generate token)
+
+generating proper jwt sercet
+allkeysgenerator.com
+
+Authenication middleware
+authorization: Bearer token - req.headers
+1. get token then verify
+2. verify token
+
+Error handling
+
+CRUD OPERATIONS for BLOG
+1. schema connection
+2. crud
